@@ -24,9 +24,19 @@ carries the English text as a fallback; the script replaces it on load.
 
 ## Publish on GitHub Pages
 
-1. Create a repository named `<your-username>.github.io`.
-2. Push these files to its `main` branch.
-3. The site is live at `https://<your-username>.github.io` within a minute.
+The site lives in the `JamolsHyper/jamol-cv` repository and is served at
+https://jamolshyper.github.io/jamol-cv/ from the `main` branch (Settings →
+Pages → Deploy from a branch → `main` / root).
+
+To publish a change:
+
+```
+git add -A
+git commit -m "Describe the change"
+git push
+```
+
+The site updates within a minute or two.
 
 ## Run locally
 
